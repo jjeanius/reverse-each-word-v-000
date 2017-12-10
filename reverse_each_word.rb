@@ -8,7 +8,7 @@ end
 
 def reverse_each_word(sentence)
   #sentence = "Hello there, and how are you?".reverse.split(" ")
-  sentence.collect do |sentence2_reverse|
+  sentence.collect.reverse do |sentence2|
     sentence2
   end
 end
