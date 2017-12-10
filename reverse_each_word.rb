@@ -6,7 +6,7 @@ end
 
 
 def reverse_each_word(sentence)
-  sentence.collect do |"sentence2".reverse|
+  sentence.collect do ("Hello there, and how are you?".reverse)
     sentence2
 
 end
