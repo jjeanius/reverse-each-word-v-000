@@ -6,7 +6,7 @@ end
 
 
 def reverse_each_word(sentence)
-  sentence.collect do |sentence2_reverse|
+  sentence.collect(reverse) do |sentence2|
     sentence2
 end
 end
