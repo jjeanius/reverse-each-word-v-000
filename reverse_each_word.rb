@@ -1,12 +1,12 @@
 def reverse_each_word(sentence)
-  sentence1 = "Hello there, and how are you?".reverse
+  sentence.reverse_each_word do |sentence1|
     sentence1
-
+end
 end
 
 
 def reverse_each_word(sentence)
-  sentence.collect
+  #sentence.collect |sentence2.reverse|
     sentence2
-
+  end
 end
