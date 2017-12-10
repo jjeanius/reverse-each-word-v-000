@@ -5,8 +5,8 @@ end
 end
 
 
-def reverse_each_word(sentence)
-  sentence.collect.reverse do |sentence2|
+def reverse_each_word(sentence.reverse)
+  sentence.collect do |sentence2|
     sentence2
 end
 end
